@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="/static/images/restaurante.ico">
+    <script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<!--
+<ul class="nav nav-pills" style="margin: 20px;">
+
+    <li class="nav-item dropdown">
+        <a class="nav-link " data-bs-toggle="dropdown" role="button" aria-expanded="false"><img
+                src="/static/images/vertical.svg"></a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" aria-current="page" href="#"><img src="/static/images/house.svg"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/static/images/star.svg"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/static/images/cart.svg"></a>
+    </li>
+</ul>
+
+-->
+<style>
+    .img-wrapper {
+  position: relative;
+  width: 99%;
+  height: 300px;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 400px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlays {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+
+</style>
+
+<div class="d-grid gap-2 col-3 mx-auto img-wrapper">
+    <img id="iow" src="/static/images/restaurante.jpg" width="99%" height="99%"
+         class="img-fluid rounded mx-auto d-block img-responsive" alt="">
+    <h2 class="img-overlays">Gold Star Chili</h2>
+    <div class="img-overlay">
+        <button class="btn btn-primary Mute text-align-center" type="submit"><a class="dropdown-item" href="login">IR A
+            MENU</a></button>
+    </div>
+</div>
+
+</body>
+
+</html>

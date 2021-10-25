@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DETALLES DE PLATOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/menu.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="/static/images/restaurante.ico">
+
+</head>
+<body>
+<ul class="nav nav-pills" style="margin: 20px;">
+
+    <li class="nav-item dropdown">
+        <a class="nav-link " data-bs-toggle="dropdown" role="button" aria-expanded="false"><img
+                src="/static/images/vertical.svg"></a>
+
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" aria-current="page" href="#"><img src="/static/images/house.svg"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/static/images/star.svg"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/static/images/cart.svg"></a>
+    </li>
+</ul>
+
+<style>
+.ul{
+background-color: white;
+}
+    .container1 {
+    display: grid;
+    grid-template-columns: 5fr fr fr;
+    grid-gap: 10px;
+    background-color: rgb(207,232,220);
+    border: 10px solid rgb(210,180,222);
+    justify-content:center
+    flex: 1;
+
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 5fr fr fr;
+    grid-gap: 10px;
+    background-color: rgb(207,232,220);
+    border: 10px solid rgb(210,180,222);
+    justify-content:center
+    flex: 1;
+
+}
+
+
+</style>
+<div style="background: linear-gradient(to left,pink, #aaff00, #11aaff);">
+    <h1 style="text-align:center; margin-top: 10px; margin-bottom: 50px;"> Detalles del plato </h1>
+
+
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="container1">
+                <div class="col">
+                    <br>
+                    <img class="img1" src="/static/images/plato4.jpg" style="margin-left:15%; margin-bottom:10%" width="280" height="250"><br>
+
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+            <div class="container2">
+                <div class="col">
+                    <br>
+                    <h4 style="text-align:center;">Plato tipico</h4>
+                    <p>100% carne de res en salsa con arroz, platano frito y papa </p>
+                    <p><b>Observaciones</b></p>
+                    <p>Es un plato tipico de la región para conocer mas sobre de los sabores</p>
+
+                    <br>
+
+                    <h4 style="text-align:center;">Precio $22.000</h4>
+
+                    <button class="btn btn-primary" type="button"><img src="/static/images/cart.svg">Agregar al carrito
+                    </button>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+</body>
+
+</body>
+<script src="nombredelarchivo.js"></script>
+<script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

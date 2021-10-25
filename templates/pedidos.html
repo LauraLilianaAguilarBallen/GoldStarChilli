@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PEDIDOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/menu.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="/static/images/restaurante.ico">
+
+</head>
+<body>
+
+<style>
+    .container1 {
+    display: grid;
+    grid-template-columns: 5fr fr fr;
+    grid-gap: 10px;
+    background-color: rgb(207,232,220);
+    flex: 1;
+    border: 10px solid rgb(224,255,51);
+    justify-content:center
+
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 5fr fr fr;
+    grid-gap: 10px;
+    background-color: rgb(207,232,220);
+    flex: 1;
+    border: 10px solid rgb(224,255,51);
+    justify-content:center
+
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 5fr fr fr;
+    grid-gap: 10px;
+    background-color: rgb(207,232,220);
+    flex: 1;
+    border: 10px solid rgb(224,255,51);
+    justify-content:center
+
+}
+
+.tabla {
+
+    grid-gap: 10px;
+    background-color: ;
+    flex: 1;
+    justify-content:center
+    float: left;
+  border: black 3px solid;
+
+}
+.container{
+margin-left: auto;
+  margin: auto;
+
+}
+
+
+
+
+</style>
+
+
+<ul class="nav nav-pills" style="margin: 20px;">
+
+    <li class="nav-item dropdown">
+        <a class="nav-link " data-bs-toggle="dropdown" role="button" aria-expanded="false"><img
+                src="/static/images/vertical.svg"></a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" aria-current="page" href="#"><img src="/static/images/house.svg"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/static/images/star.svg"></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/static/images/cart.svg"></a>
+    </li>
+</ul>
+
+<h1 style="text-align: center; margin-left: 330px; margin-bottom: 20px;"> Pedidos </h1>
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="tabla">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Resumen de la orden</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <body>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <td>Envio</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </body>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="container1">
+                <div class="row">
+                    <div class="col">
+                        <img src="/static/images/plato1.jpg"
+                             style="margin-right: 150px; margin-top: 12px; margin-bottom: 12px;">
+                    </div>
+                    <div class="col" style="margin-top: 30px;">
+                        <h4 style="text-align:center;">Plato tipico</h4>
+                        <h4 style="text-align:center; margin-top: 15px;">Cantidad</h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="container2">
+                <div class="row">
+                    <div class="col">
+                        <img src="/static/images/plato2.jpg"
+                             style="margin-right: 150px; margin-top: 12px; margin-bottom: 12px;">
+                    </div>
+                    <div class="col" style="margin-top: 30px;">
+                        <h4 style="text-align:center;">Plato tipico</h4>
+                        <h4 style="text-align:center; margin-top: 15px;">Cantidad</h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="container3">
+
+                <div class="row">
+                    <div class="col">
+                        <img src="/static/images/plato3.jpg"
+                             style="margin-right: 150px; margin-top: 12px; margin-bottom: 12px;">
+                    </div>
+                    <div class="col" style="margin-top: 30px;">
+                        <h4 style="text-align:center;">Plato tipico</h4>
+                        <h4 style="text-align:center; margin-top: 15px;">Cantidad</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="nombredelarchivo.js"></script>
+<script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

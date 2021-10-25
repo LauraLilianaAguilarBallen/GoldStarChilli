@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/login.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="static/images/restaurante.ico">
+
+</head>
+<body>
+
+<style>
+.center {
+text-align: center
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 5fr fr fr;
+    grid-gap: 10px;
+    background-color: rgb(207,232,220);
+    flex: 1;
+    border: 0px solid rgb(51,255,252);
+    justify-content:center
+    margin-top: 10px;
+    margin-right: 450px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+
+
+</style>
+<div class="container">
+    <div class="center">
+        <section>
+            <nav>
+                <div class="row justify-content-md-center">
+
+                    <ul>
+                        <form action="/loginu/" method="POST">
+                            <div style="font-size:10%;">
+                                <div class="mb-3 row">
+                                    <br>
+                                    <img src="/static/images/res.jpg" width="250" height="250">
+                                    <br>
+                                    <label class="form-label"></label>
+                                    <div class="col-sm-10">
+                                        <br>
+                                        <br>
+                                        <input type="text" name="l1" class="form-control l1" id="l1"
+                                               placeholder="Identificación">
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+
+                                <div class="mb-3 row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label"></label>
+                                    <div class="col-sm-10">
+                                        <input type="password" name="l2" class="form-control" id="inputPassword"
+                                               placeholder="Contraseña">
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+
+                                <div class="d-grid gap-2 col-3 mx-auto">
+                                    <button class="btn btn-primary" type="submit">Ingresar</button>
+                                </div>
+                                <br>
+
+                            </div>
+                        </form>
+                    </ul>
+                    <h6>No tiene una cuenta </h6>
+                    <a class="dropdown-item" href="registrarse">registrarse</a>
+                </div>
+                <br>
+                <br>
+            </nav>
+        </section>
+    </div>
+</div>
+</body>
+<script src="nombredelarchivo.js"></script>
+<script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
+
+
+
+
+

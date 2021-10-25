@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GESTION COMENTARIOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/perfil.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="/static/images/restaurante.ico">
+
+</head>
+<body class="">
+
+
+<div class="container m-5" >
+    <div class="row row-cols-2">
+        <div class="col" >
+            <img class="img1" src="/static/images/perfil.jpg" style="margin-left:30%; margin-bottom:10%" width="280" height="250">
+            <ul style="margin-left:20%; " >
+
+                <div>
+                    <li style="font-size: 20px; margin-bottom: 12px; "><a id="boton_personalizado" href="#informacion personal"><img src="/static/images/persona.svg" width="30" height="30" >
+                        Información personal</a></li>
+                    <li style="font-size: 20px;"><a id="boton_personalizado" href="#Cerrar sesion"><img src="/static/images/cerrar.jpg" width="30" height="30"> cerrar
+                        sesion</a></li>
+                </div>
+
+            </ul>
+        </div>
+        <div class="col-sm-2s">
+            <div class="row">
+                <div class="">
+                    <ul class="nav nav-pills" style="margin: 10px;">
+
+                        <li class="nav-item "style="margin-left: 140px;">
+                            <a class="nav-link" aria-current="page" href="#"><img src="/static/images/house.svg"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="/static/images/star.svg"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="/static/images/cart.svg"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 col-sm-6-md-8">
+                    <div style="text-align:center; font-size:70%;">
+
+                        <label for="usuario"></label><br>
+                        <textarea cols="40" rows="2" id="usuario"
+                                  placeholder="El lugar es de buen reconocimiento?"
+                                  name="usuario"></textarea>
+                        <br>
+                        <textarea cols="40" rows="2" id="usuario"
+                                  placeholder=" La comida es de buen sabor "
+                                  name="usuario"></textarea>
+                        <br>
+                        <button id="boton_personalizado" type="button" value="SI">Si</button>
+                        <button id="boton_personalizado" type="button" value="NO">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="nombredelarchivo.js"></script>
+<script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

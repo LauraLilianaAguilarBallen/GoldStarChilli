@@ -1,0 +1,28 @@
+body {
+background: linear-gradient(to left, #aaff00, #11aaff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+img:hover{
+-webkit-transform: rotate(360deg);transform: rotate(360deg);
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+
+}
+#boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+#boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
